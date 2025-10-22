@@ -9,7 +9,7 @@ Perfect for debugging player movement, AI steering, or physics directions.
 
 ![Display Vector3D Preview](./example_screenshot.png)
 
-# ✨ Features
+## ✨ Features
 
 Draws vector lines (arrows) in 3D space
 
@@ -21,7 +21,7 @@ Minimal performance overhead
 
 Easy to toggle on/off for debug builds
 
-# 📦 Installation
+## 📦 Installation
 
 Copy the `display_vector3d/` folder into your project’s `res://addons/` directory
 
@@ -29,7 +29,7 @@ In Godot, go to Project → Project Settings → Plugins
 
 Enable Display Vector3D
 
-# ⚙️ Usage
+## ⚙️ Usage
 
 Once enabled, you can use it directly in your scripts.
 
