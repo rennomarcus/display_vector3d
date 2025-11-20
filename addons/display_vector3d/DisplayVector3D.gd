@@ -147,7 +147,7 @@ func _draw_vector() -> void:
 
 	# Anchor arrow at the source origin
 	if _source is Node3D:
-		global_transform.origin = (_source as Node3D).global_transform.origin
+		global_transform = Transform3D(Basis.IDENTITY, _source.global_transform.origin)
 	
 	# Orient the arrow so +Z matches the vector direction
 	var dir := world_v.normalized()
