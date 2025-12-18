@@ -18,7 +18,7 @@ class_name DisplayVector3D
 @export var toggle_action: StringName = &"debug"
 @export var auto_add_action_if_missing: bool = true
 @export var default_toggle_key: int = KEY_V
-@export var start_visible: bool = true
+@export var start_visible: bool = false
 
 @export var vector_is_world_space: bool = true
 
